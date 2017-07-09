@@ -21,6 +21,20 @@
 	padding: 25px;
 	margin: 25px;
 }
+#dog {
+	position: relative;
+	top: 175px;
+	left: 50px;
+	color: whitesmoke;
+	font-size: 20px;
+}
+#cat{
+	position: relative;
+	top: 175px;
+	left: 200px;
+	color: whitesmoke;
+	font-size: 20px;
+}
 #player2{
 	position: relative;
 	top: 175px;
