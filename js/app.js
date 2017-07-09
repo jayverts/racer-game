@@ -1,6 +1,9 @@
 setInterval(movePlayer, 20);
 var keys = {};
 
+setInterval(movePlayer2, 20);
+var keys = {};
+
 $(document).keydown(function(e) {
     keys[e.keyCode] = true;
 });
