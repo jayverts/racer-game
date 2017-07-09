@@ -1,4 +1,5 @@
 #player1 {
+    position: relative;
     height: 75px;
     width: 75px;
     border: 25px solid green;
@@ -8,6 +9,7 @@
 }
 
 #player2{
+	position: relative;
 	height: 75px;
 	width: 75px;
 	border: 25px solid green;
