@@ -26,3 +26,21 @@ function movePlayer() {
     }
   }
 }
+
+function movePlayer2() {
+  for (var direction in keys) {
+    if (!keys.hasOwnProperty(direction)) continue;
+    if (direction == 90) {
+      $("#player2").animate({left: "-=5"}, 0);
+    }
+    if (direction == 83) {
+      $("#player2").animate({top: "-=5"}, 0);
+    }
+    if (direction == 65) {
+      $("#player2").animate({left: "+=5"}, 0);
+    }
+    if (direction == 88) {
+      $("#player2").animate({top: "+=5"}, 0);
+    }
+  }
+}
