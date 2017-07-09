@@ -47,3 +47,12 @@ function movePlayer2() {
     }
   }
 }
+
+function Winner(){
+  if (player1.position + player1.div.offsetWidth >= window.innerWidth - 40) {
+    setWinState(player1);
+  }
+  if (player2.position + player2.div.offsetWidth >= window.innerWidth - 40) {
+    setWinState(player2);
+  }
+}

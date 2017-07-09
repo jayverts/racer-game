@@ -1,19 +1,42 @@
-#player1 {
-    position: relative;
-    height: 75px;
-    width: 75px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
-    background: blue;
+#game {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTea8hQhsJaTH7qqnQbZ6UJKhyKDfqLoYLk9s272ukLPYKqO6Bg");
+	background-size: 100%;
 }
-
-#player2{
+#landing {
+	background-image: url("http://belajoo.com/i/2017/02/sunrise-mountain-wallpapers-high-resolution.jpg");
+	background-size: cover;
+}
+#play{
+	position: relative;
+	top: 200px;
+	left: 515px;
+	font-size: 60px;
+	color: whitesmoke;
+}
+#player1 {
 	position: relative;
 	height: 75px;
 	width: 75px;
-	border: 25px solid green;
+	border: 25px;
 	padding: 25px;
 	margin: 25px;
-	background: yellow;
+}
+#player2{
+	position: relative;
+	top: 175px;
+	height: 75px;
+	width: 75px;
+	border: 25px;
+	padding: 25px;
+	margin: 25px;
+}
+#food {
+	position: relative;
+	top: -100px;
+	left: 900px;
+	height: 75px;
+	width: 75px;
+	border: 25px;
+	padding: 25px;
+	margin: 25px;
 }
