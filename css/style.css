@@ -57,9 +57,14 @@
 	padding: 25px;
 	margin: 25px;
 }
-@media screen and (max-width: 699px) and (min-width: 520px) {
+@media screen and (max-width: 768px) and (min-width: 1024px) {
 #cat{
 	color: blue;
+	font-size: 10px;
+}
+#dog{
+	color: red;
+	font-size: 10px;
 }
 }
 

@@ -1,3 +1,4 @@
+//settig up the move function
 setInterval(movePlayer, 20);
 var keys = {};
 
@@ -12,6 +13,7 @@ $(document).keyup(function(e) {
     delete keys[e.keyCode];
 });
 
+//getting player one to move using the arrow keys
 function movePlayer() {
   for (var direction in keys) {
     if (!keys.hasOwnProperty(direction)) continue;
@@ -30,6 +32,7 @@ function movePlayer() {
   }
 }
 
+//getting player two to move using the "azsx" buttons
 function movePlayer2() {
   for (var direction in keys) {
     if (!keys.hasOwnProperty(direction)) continue;
@@ -48,6 +51,7 @@ function movePlayer2() {
   }
 }
 
+//trying to get to winning state
 function Winner(){
   if (player1.position + player1.div.offsetWidth >= window.innerWidth - 40) {
     setWinState(player1);
