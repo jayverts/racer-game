@@ -12,6 +12,7 @@
 	left: 515px;
 	font-size: 60px;
 	color: whitesmoke;
+	font-family: 'Shrikhand', cursive;
 }
 #player1 {
 	position: relative;
@@ -27,6 +28,7 @@
 	left: 50px;
 	color: whitesmoke;
 	font-size: 20px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 #cat{
 	position: relative;
@@ -34,6 +36,7 @@
 	left: 200px;
 	color: whitesmoke;
 	font-size: 20px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 #player2{
 	position: relative;
